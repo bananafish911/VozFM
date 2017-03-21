@@ -1,0 +1,579 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5723A8561DC4F368005E604D /* Track.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5723A8551DC4F368005E604D /* Track.swift */; };
+		5723A85A1DC4F68A005E604D /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5723A8591DC4F68A005E604D /* Player.swift */; };
+		572C2EDC1DC4B283006862A1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 572C2ECB1DC4B283006862A1 /* AppDelegate.swift */; };
+		572C2EE11DC4B283006862A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 572C2ED41DC4B283006862A1 /* LaunchScreen.storyboard */; };
+		572C2EE21DC4B283006862A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 572C2ED61DC4B283006862A1 /* Main.storyboard */; };
+		572C2EE31DC4B283006862A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 572C2ED91DC4B283006862A1 /* Assets.xcassets */; };
+		572C2EEC1DC4BEF6006862A1 /* PlayerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 572C2EEB1DC4BEF6006862A1 /* PlayerVC.swift */; };
+		572C2EEE1DC4C0A3006862A1 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 572C2EED1DC4C0A3006862A1 /* Constants.swift */; };
+		5749B3081DC68C0F0098E8F6 /* RecentTracksCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5749B3071DC68C0F0098E8F6 /* RecentTracksCell.swift */; };
+		5787AFA31E695895007C9C2D /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5787AFA21E695895007C9C2D /* Info.plist */; };
+		57B0F6D31DC88857002183B9 /* AboutVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57B0F6D21DC88857002183B9 /* AboutVC.swift */; };
+		57D682D11DC92A360068EB0B /* SmoochLocalizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 57D682D31DC92A360068EB0B /* SmoochLocalizable.strings */; };
+		57FC6F951E6960360022DA76 /* Collection+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57FC6F871E6960360022DA76 /* Collection+Extensions.swift */; };
+		57FC6F961E6960360022DA76 /* NotificationCenter+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57FC6F881E6960360022DA76 /* NotificationCenter+Extensions.swift */; };
+		57FC6F971E6960360022DA76 /* UIAlertController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57FC6F891E6960360022DA76 /* UIAlertController+Extensions.swift */; };
+		57FC6F981E6960360022DA76 /* UIApplication+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57FC6F8A1E6960360022DA76 /* UIApplication+Extensions.swift */; };
+		57FC6F991E6960360022DA76 /* UIColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57FC6F8B1E6960360022DA76 /* UIColor+Extensions.swift */; };
+		57FC6F9A1E6960360022DA76 /* UILabel+extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57FC6F8C1E6960360022DA76 /* UILabel+extensions.swift */; };
+		57FC6F9E1E6960360022DA76 /* UIViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57FC6F901E6960360022DA76 /* UIViewController+Extensions.swift */; };
+		57FC6F9F1E6960360022DA76 /* Macros.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57FC6F911E6960360022DA76 /* Macros.swift */; };
+		57FC6FA01E6960360022DA76 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57FC6F921E6960360022DA76 /* GradientView.swift */; };
+		57FC6FA21E6964030022DA76 /* AVMetadataItem+utf8String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57FC6FA11E6964030022DA76 /* AVMetadataItem+utf8String.swift */; };
+		57FC6FA91E6A1E330022DA76 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57FC6FA81E6A1E330022DA76 /* UIView+Extensions.swift */; };
+		744559A81F8812063D98B98D /* Pods_VozFM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31692D93AD335216DADA3358 /* Pods_VozFM.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		31692D93AD335216DADA3358 /* Pods_VozFM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VozFM.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5723A8551DC4F368005E604D /* Track.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Track.swift; sourceTree = "<group>"; };
+		5723A8591DC4F68A005E604D /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		572C2EB41DC4AA7A006862A1 /* VozFM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VozFM.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		572C2ECB1DC4B283006862A1 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		572C2ED51DC4B283006862A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		572C2ED71DC4B283006862A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		572C2ED91DC4B283006862A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		572C2EEB1DC4BEF6006862A1 /* PlayerVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerVC.swift; sourceTree = "<group>"; };
+		572C2EED1DC4C0A3006862A1 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		573F1E781E6DDA66008A13DA /* VozFM.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = VozFM.entitlements; sourceTree = "<group>"; };
+		5749B3071DC68C0F0098E8F6 /* RecentTracksCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecentTracksCell.swift; sourceTree = "<group>"; };
+		5787AFA21E695895007C9C2D /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57B0F6D21DC88857002183B9 /* AboutVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutVC.swift; sourceTree = "<group>"; };
+		57D682CD1DC8EFFC0068EB0B /* BridgingHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BridgingHeader.h; sourceTree = "<group>"; };
+		57D682D21DC92A360068EB0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/SmoochLocalizable.strings; sourceTree = "<group>"; };
+		57FC6F871E6960360022DA76 /* Collection+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Collection+Extensions.swift"; sourceTree = "<group>"; };
+		57FC6F881E6960360022DA76 /* NotificationCenter+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NotificationCenter+Extensions.swift"; sourceTree = "<group>"; };
+		57FC6F891E6960360022DA76 /* UIAlertController+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIAlertController+Extensions.swift"; sourceTree = "<group>"; };
+		57FC6F8A1E6960360022DA76 /* UIApplication+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIApplication+Extensions.swift"; sourceTree = "<group>"; };
+		57FC6F8B1E6960360022DA76 /* UIColor+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extensions.swift"; sourceTree = "<group>"; };
+		57FC6F8C1E6960360022DA76 /* UILabel+extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UILabel+extensions.swift"; sourceTree = "<group>"; };
+		57FC6F901E6960360022DA76 /* UIViewController+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extensions.swift"; sourceTree = "<group>"; };
+		57FC6F911E6960360022DA76 /* Macros.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Macros.swift; sourceTree = "<group>"; };
+		57FC6F921E6960360022DA76 /* GradientView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		57FC6FA11E6964030022DA76 /* AVMetadataItem+utf8String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AVMetadataItem+utf8String.swift"; sourceTree = "<group>"; };
+		57FC6FA81E6A1E330022DA76 /* UIView+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
+		8CFE7619BD30D2BE1D4F0C3C /* Pods-VozFM.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VozFM.release.xcconfig"; path = "Pods/Target Support Files/Pods-VozFM/Pods-VozFM.release.xcconfig"; sourceTree = "<group>"; };
+		D8628377E871AC108B9A2AE9 /* Pods-VozFM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VozFM.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VozFM/Pods-VozFM.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		572C2EB11DC4AA7A006862A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				744559A81F8812063D98B98D /* Pods_VozFM.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3E7823A7D228A3FD1F8403EB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D8628377E871AC108B9A2AE9 /* Pods-VozFM.debug.xcconfig */,
+				8CFE7619BD30D2BE1D4F0C3C /* Pods-VozFM.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		572C2EAB1DC4AA7A006862A1 = {
+			isa = PBXGroup;
+			children = (
+				572C2EB61DC4AA7A006862A1 /* VozFM */,
+				572C2EB51DC4AA7A006862A1 /* Products */,
+				3E7823A7D228A3FD1F8403EB /* Pods */,
+				EA16B4C84EC127E3C77691F9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		572C2EB51DC4AA7A006862A1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				572C2EB41DC4AA7A006862A1 /* VozFM.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		572C2EB61DC4AA7A006862A1 /* VozFM */ = {
+			isa = PBXGroup;
+			children = (
+				573F1E781E6DDA66008A13DA /* VozFM.entitlements */,
+				572C2ECB1DC4B283006862A1 /* AppDelegate.swift */,
+				572C2EC91DC4B283006862A1 /* Configs */,
+				572C2ED21DC4B283006862A1 /* Models */,
+				572C2ECC1DC4B283006862A1 /* Controllers */,
+				572C2ECE1DC4B283006862A1 /* Helpers */,
+				572C2ED31DC4B283006862A1 /* Views */,
+				572C2ED81DC4B283006862A1 /* Resources */,
+				57D682CD1DC8EFFC0068EB0B /* BridgingHeader.h */,
+			);
+			path = VozFM;
+			sourceTree = "<group>";
+		};
+		572C2EC91DC4B283006862A1 /* Configs */ = {
+			isa = PBXGroup;
+			children = (
+				5787AFA21E695895007C9C2D /* Info.plist */,
+				572C2EED1DC4C0A3006862A1 /* Constants.swift */,
+			);
+			path = Configs;
+			sourceTree = "<group>";
+		};
+		572C2ECC1DC4B283006862A1 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				572C2EEB1DC4BEF6006862A1 /* PlayerVC.swift */,
+				57B0F6D21DC88857002183B9 /* AboutVC.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		572C2ECE1DC4B283006862A1 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				57FC6F861E6960360022DA76 /* Extensions */,
+				57FC6F911E6960360022DA76 /* Macros.swift */,
+				57FC6F921E6960360022DA76 /* GradientView.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		572C2ED21DC4B283006862A1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5723A8591DC4F68A005E604D /* Player.swift */,
+				5723A8551DC4F368005E604D /* Track.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		572C2ED31DC4B283006862A1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5749B3071DC68C0F0098E8F6 /* RecentTracksCell.swift */,
+				572C2ED41DC4B283006862A1 /* LaunchScreen.storyboard */,
+				572C2ED61DC4B283006862A1 /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		572C2ED81DC4B283006862A1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				57D682D31DC92A360068EB0B /* SmoochLocalizable.strings */,
+				572C2ED91DC4B283006862A1 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		57FC6F861E6960360022DA76 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				57FC6FA11E6964030022DA76 /* AVMetadataItem+utf8String.swift */,
+				57FC6F871E6960360022DA76 /* Collection+Extensions.swift */,
+				57FC6F881E6960360022DA76 /* NotificationCenter+Extensions.swift */,
+				57FC6F891E6960360022DA76 /* UIAlertController+Extensions.swift */,
+				57FC6F8A1E6960360022DA76 /* UIApplication+Extensions.swift */,
+				57FC6F8B1E6960360022DA76 /* UIColor+Extensions.swift */,
+				57FC6F8C1E6960360022DA76 /* UILabel+extensions.swift */,
+				57FC6F901E6960360022DA76 /* UIViewController+Extensions.swift */,
+				57FC6FA81E6A1E330022DA76 /* UIView+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		EA16B4C84EC127E3C77691F9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				31692D93AD335216DADA3358 /* Pods_VozFM.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		572C2EB31DC4AA7A006862A1 /* VozFM */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 572C2EC61DC4AA7A006862A1 /* Build configuration list for PBXNativeTarget "VozFM" */;
+			buildPhases = (
+				7E301FAF0439898A95D0F6A8 /* [CP] Check Pods Manifest.lock */,
+				572C2EB01DC4AA7A006862A1 /* Sources */,
+				572C2EB11DC4AA7A006862A1 /* Frameworks */,
+				572C2EB21DC4AA7A006862A1 /* Resources */,
+				B72869480792620F4C52E8F8 /* [CP] Embed Pods Frameworks */,
+				B9FBFDE05647A7EE5129611B /* [CP] Copy Pods Resources */,
+				57D682CE1DC901B40068EB0B /* Run Script - Crashlytics */,
+				57FC6F7F1E69592D0022DA76 /* TODO+FIXME as warnings */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VozFM;
+			productName = VozFM;
+			productReference = 572C2EB41DC4AA7A006862A1 /* VozFM.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		572C2EAC1DC4AA7A006862A1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = Victor;
+				TargetAttributes = {
+					572C2EB31DC4AA7A006862A1 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = WPW5M885N8;
+						LastSwiftMigration = 0800;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+							com.apple.WAC = {
+								enabled = 0;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 572C2EAF1DC4AA7A006862A1 /* Build configuration list for PBXProject "VozFM" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 572C2EAB1DC4AA7A006862A1;
+			productRefGroup = 572C2EB51DC4AA7A006862A1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				572C2EB31DC4AA7A006862A1 /* VozFM */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		572C2EB21DC4AA7A006862A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				572C2EE11DC4B283006862A1 /* LaunchScreen.storyboard in Resources */,
+				5787AFA31E695895007C9C2D /* Info.plist in Resources */,
+				572C2EE31DC4B283006862A1 /* Assets.xcassets in Resources */,
+				57D682D11DC92A360068EB0B /* SmoochLocalizable.strings in Resources */,
+				572C2EE21DC4B283006862A1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		57D682CE1DC901B40068EB0B /* Run Script - Crashlytics */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Run Script - Crashlytics";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Fabric/run\" dcab3b3364a14479bec343d2b2dbbabdd05acd26 388207a51db13ce5027adbfb7a037a0135bb9023382bde02e335104fbc149b36";
+		};
+		57FC6F7F1E69592D0022DA76 /* TODO+FIXME as warnings */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "TODO+FIXME as warnings";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "TAGS=\"TODO:|FIXME:\"\necho \"searching ${SRCROOT} for ${TAGS}\"\nfind \"${SRCROOT}\" \\( -name \"*.swift\" \\) -print0 | xargs -0 egrep --with-filename --line-number --only-matching \"($TAGS).*\\$\" | perl -p -e \"s/($TAGS)/ warning: \\$1/\"";
+		};
+		7E301FAF0439898A95D0F6A8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B72869480792620F4C52E8F8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VozFM/Pods-VozFM-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B9FBFDE05647A7EE5129611B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VozFM/Pods-VozFM-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		572C2EB01DC4AA7A006862A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57FC6FA91E6A1E330022DA76 /* UIView+Extensions.swift in Sources */,
+				57FC6F981E6960360022DA76 /* UIApplication+Extensions.swift in Sources */,
+				57FC6F991E6960360022DA76 /* UIColor+Extensions.swift in Sources */,
+				57FC6FA01E6960360022DA76 /* GradientView.swift in Sources */,
+				5723A85A1DC4F68A005E604D /* Player.swift in Sources */,
+				57FC6FA21E6964030022DA76 /* AVMetadataItem+utf8String.swift in Sources */,
+				572C2EEC1DC4BEF6006862A1 /* PlayerVC.swift in Sources */,
+				57FC6F951E6960360022DA76 /* Collection+Extensions.swift in Sources */,
+				5723A8561DC4F368005E604D /* Track.swift in Sources */,
+				57FC6F961E6960360022DA76 /* NotificationCenter+Extensions.swift in Sources */,
+				5749B3081DC68C0F0098E8F6 /* RecentTracksCell.swift in Sources */,
+				57FC6F971E6960360022DA76 /* UIAlertController+Extensions.swift in Sources */,
+				57B0F6D31DC88857002183B9 /* AboutVC.swift in Sources */,
+				57FC6F9E1E6960360022DA76 /* UIViewController+Extensions.swift in Sources */,
+				572C2EDC1DC4B283006862A1 /* AppDelegate.swift in Sources */,
+				57FC6F9A1E6960360022DA76 /* UILabel+extensions.swift in Sources */,
+				57FC6F9F1E6960360022DA76 /* Macros.swift in Sources */,
+				572C2EEE1DC4C0A3006862A1 /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		572C2ED41DC4B283006862A1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				572C2ED51DC4B283006862A1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		572C2ED61DC4B283006862A1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				572C2ED71DC4B283006862A1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		57D682D31DC92A360068EB0B /* SmoochLocalizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				57D682D21DC92A360068EB0B /* Base */,
+			);
+			name = SmoochLocalizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		572C2EC41DC4AA7A006862A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		572C2EC51DC4AA7A006862A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		572C2EC71DC4AA7A006862A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8628377E871AC108B9A2AE9 /* Pods-VozFM.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = VozFM/VozFM.entitlements;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = WPW5M885N8;
+				INFOPLIST_FILE = "$(SRCROOT)/VozFM/Configs/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Bananaapps.VozFM;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/VozFM/BridgingHeader.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		572C2EC81DC4AA7A006862A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8CFE7619BD30D2BE1D4F0C3C /* Pods-VozFM.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = VozFM/VozFM.entitlements;
+				DEVELOPMENT_TEAM = WPW5M885N8;
+				INFOPLIST_FILE = "$(SRCROOT)/VozFM/Configs/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Bananaapps.VozFM;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/VozFM/BridgingHeader.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		572C2EAF1DC4AA7A006862A1 /* Build configuration list for PBXProject "VozFM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				572C2EC41DC4AA7A006862A1 /* Debug */,
+				572C2EC51DC4AA7A006862A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		572C2EC61DC4AA7A006862A1 /* Build configuration list for PBXNativeTarget "VozFM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				572C2EC71DC4AA7A006862A1 /* Debug */,
+				572C2EC81DC4AA7A006862A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 572C2EAC1DC4AA7A006862A1 /* Project object */;
+}
